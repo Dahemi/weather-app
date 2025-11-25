@@ -32,6 +32,7 @@ const serverlessConfiguration: AWS = {
       createRoute53Record: true,
       endpointType: 'regional',
       securityPolicy: 'tls_1_2',
+      basePath: "",
     },
     esbuild: {
       bundle: true,
